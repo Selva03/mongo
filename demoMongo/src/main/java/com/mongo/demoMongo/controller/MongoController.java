@@ -12,4 +12,8 @@ public class MongoController {
 		return "Welocome Mongo";
 	}
 
+	@RequestMapping("/get/all")
+	public String MongoAll () {
+		return "Welocome Mongo all";
+	}
 }
